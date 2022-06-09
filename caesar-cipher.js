@@ -48,5 +48,5 @@ function caesarCiphar (str, num){
 
     return newString;
 }
-
-caesarCiphar('Moses', 2)
+//return the new string
+caesarCiphar('Moses', -900)
