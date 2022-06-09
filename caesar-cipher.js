@@ -1,4 +1,4 @@
-function carsarCiphar (str, num){
+function caesarCiphar (str, num){
     num = num % 26;
     var lowerCaseString = str.toLowerCase();
     var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
@@ -25,4 +25,4 @@ function carsarCiphar (str, num){
     return newString;
 }
 
-carsarCiphar('Moses', 2)
+caesarCiphar('Moses', 2)
