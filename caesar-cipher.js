@@ -2,16 +2,16 @@ function carsarCiphar (str, num){
     num = num % 26;
     var lowerCaseString = str.toLowerCase();
     var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
-    var newString = ' ';
+    var newString = '';
 
     for (var i = 0; i < lowerCaseString.length; i++){
-        var currenLetter = lowerCaseString[i];
-        if (currenLetter === ' ') {
-            newString += currenLetter;
+        var currentLetter = lowerCaseString[i];
+        if (currentLetter === ' ') {
+            newString += currentLetter;
             continue;
         }
 
-        var currenLetter = alphabet.indexOf(currenLetter);
+        var currentIndex = alphabet.indexOf(currentLetter);
         var newIndex = currentIndex + num;
         if (newIndex > 25) newIndex = newIndex - 26;
         if (newIndex < 0) newIndex = 26 + newIndex;
