@@ -22,4 +22,9 @@ function twoSum(numArray, sum){
     return pairs;
 }
 
-console.log(twoSum([1,6,4,5,3,3], 7))
+//console.log(twoSum([1,6,4,5,3,3], 7))
+//Answer [1, 6], [4, 3], [4, 3]
+
+console.log(twoSum([40, 11, 19, 17, -12], 28))
+
+//Answer [17, 11], [-12, 40]
