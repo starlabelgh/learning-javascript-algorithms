@@ -1,3 +1,6 @@
+//palindrome is a word that a pronounced the same way even when is reversed
+//male palindrome determine if a statement is a palindrome or not
+
 function isPalindrome(string) {
     string = string.toLowerCase();
     var charactersArr = string.split('');
