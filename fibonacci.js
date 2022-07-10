@@ -8,3 +8,5 @@ function fabinocci(position){
     else return fabinocci(position - 1) + fabinocci(position - 2);
 
 }
+
+console.log(fabinocci(6));
